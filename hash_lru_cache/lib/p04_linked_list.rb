@@ -91,10 +91,8 @@ include Enumerable
   end
 
   def each
-    iternode = @head.next
-    while iternode != @tail
-      iternode = iternode.next
-    end
+    i = 0
+    while 
   end
 
   # uncomment when you have `each` working and `Enumerable` included
